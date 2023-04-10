@@ -1,0 +1,276 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 16px;
+}
+.design{
+    background: linear-gradient(hsl(276, 100%, 81%), hsl(276, 55%, 52%));
+    width: 32%;
+    height: 95vh;
+    border-bottom-left-radius: 250px;
+    border-bottom-right-radius: 250px;
+    color: hsl(276, 55%, 52%);
+}
+.chat-booking{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 75px 75px;
+    padding-left: 160px;
+    position: absolute;
+    bottom: 90px;
+}
+/*    Start Descriptive chat   */
+.chat-booking .mobile{
+    width: 40%;
+    background-color: hsl(252, 15%, 94%);
+    border-radius: 20px;
+    padding: 15px 15px;
+    position: relative;
+}
+.chat-booking .mobile .space{
+    background-color: #fff;
+    color: #fff;
+    width: 60%;
+    position: absolute;
+    top: 7px;
+    left: 80px;
+    border-radius: 20px;
+}
+.chat-booking .mobile .title{
+    text-align: justify;
+    background-color: hsl(264, 100%, 61%);
+    color: #fff;
+    border-top-left-radius: 20px; 
+    border-top-right-radius: 20px;
+    margin-bottom: 10px; 
+    padding-top: 10px;
+}
+.chat-booking .mobile .title .img{
+    width: 50%;
+    float: left;
+    margin: 10px 0;
+}
+.chat-booking .mobile .title .img .fa-angle-left{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 12px;
+    font-size: 16px;
+    font-weight: 400;
+}
+.chat-booking .mobile .title .img img{
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+}
+.chat-booking .mobile .title .dataauthor{
+    width: 50%;
+    float: left;
+}
+.clr{
+    clear: both;
+}
+.chat-booking .mobile .title .dataauthor{
+    margin: 10px 0;
+    text-align: left;
+}
+.chat-booking .mobile .title .dataauthor h2{
+    font-size: 16px;
+    font-weight: 700;
+    margin: 8px 0;
+}
+.chat-booking .mobile .title .dataauthor p{
+    font-size: 15px;
+    font-weight: 400;
+    color:  hsl(270, 7%, 64%);
+}
+.chat-booking .mobile .chat-body{
+    text-align: left;
+}
+.chat-booking .mobile .chat-body .one{
+    background-color: hsl(255, 5%, 84%);
+    color: hsl(276, 55%, 52%);
+    width: 70%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 10px;
+}
+.chat-booking .mobile .chat-body .two{
+    background-color: hsl(255, 5%, 84%);
+    color: hsl(276, 55%, 52%);
+    width: 93%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.chat-booking .mobile .chat-body .img1{
+    width: 20%;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.chat-booking .mobile .chat-body .img1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.chat-booking .mobile .chat-body .img2{
+    width: 20%;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.chat-booking .mobile .chat-body .img2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.chat-booking .mobile .chat-body .img3{
+    width: 20%;
+    display: inline-block;
+    margin-left: 12%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.chat-booking .mobile .chat-body .img3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.chat-booking .mobile .chat-body .three{
+    background-color: hsl(260, 18%, 97%);
+    color: hsl(271, 15%, 43%);
+    width: 65%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.chat-booking .mobile .chat-body .four{
+    background-color: hsl(260, 18%, 97%);
+    color: hsl(271, 15%, 43%);
+    width: 65%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-left: auto;
+    border-radius: 10px;
+}
+.chat-booking .mobile .chat-body .five{
+    background-color: hsl(255, 5%, 84%);
+    color: hsl(276, 55%, 52%);
+    width: 49%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.chat-booking .mobile .chat-body ul{
+    width: 65%;
+    padding: 7px 7px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+}
+.chat-booking .mobile .chat-body ul li{
+    list-style-position: inside;
+    list-style-type: circle;
+}
+.chat-booking .mobile .chat-body ul li span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 35px;
+}
+.chat-booking .mobile .chat-body ul li:first-child{
+    background-color: hsl(276, 55%, 52%);
+    color: hsl(255, 5%, 84%);
+    padding: 10px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.chat-booking .mobile .chat-body ul li:last-child{
+    background-color: hsl(276, 55%, 52%);
+    color: hsl(255, 5%, 84%);
+    padding: 10px 8px;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.chat-booking .mobile .chat-body ul li:last-child span{
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 65px;
+}
+.chat-booking .mobile .chat-body .submit{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+.chat-booking .mobile .chat-body .submit input{
+    border: none;
+    border-radius: 20px;
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 16px;
+    color: hsl(240, 0%, 48%);
+}
+.chat-booking .mobile .chat-body .submit input::placeholder{
+    color: hsl(255, 5%, 84%);
+}
+.chat-booking .mobile .chat-body .submit .fa-angle-right{
+    background-color: hsl(271, 36%, 24%);
+    color: hsl(0, 0%, 100%);
+    padding: 7px 7px;
+    border-radius: 50%;
+    position: absolute;
+    right: 2px;
+}
+/*    End Descriptive chat   */
+/*     Start Welcome Website   */
+.chat-booking .Description{
+    width: 50%;
+    padding: 26px 26px;
+    text-align: justify;
+}
+.chat-booking .Description h1{
+    font: 16px;
+    font-weight: 500;
+    margin: 5px 0 10px 0;
+}
+.chat-booking .Description p{
+    font-size: 15px;
+    font-weight: 400;
+    color:  hsl(270, 7%, 64%);
+    width: 85%;
+    margin: 20px 0;
+    line-height: 1.7;
+}
+/*     End Welcome Website   */
